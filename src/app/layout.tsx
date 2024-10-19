@@ -15,7 +15,11 @@ export const metadata: Metadata = {
   description: "Mais de 10 mil jogos separados e organizados",
   keywords: ["games", "jogos", "steam"],
   openGraph: {
-    images: [`${process.env.PROJECT_URL}/preview.png`],
+    images: [
+      {
+        url: `${process.env.PROJECT_URL}/preview.png`
+      }
+    ],
     title: "Daly Games"
   },
   robots: {
